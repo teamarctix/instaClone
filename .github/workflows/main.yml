@@ -1,7 +1,7 @@
 name: Deploy React App to GitHub Pages
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
   push:
     branches:
       - main  # or 'master' if that's your default branch
